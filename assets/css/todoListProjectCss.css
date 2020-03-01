@@ -7,6 +7,10 @@ body {
   margin: 0 auto;
   border: 2px solid black;
 }
+.selected {
+  color: grey;
+  text-decoration: line-through;
+}
 
 ul {
   list-style: none;
