@@ -1,4 +1,4 @@
-
+var video = document.getElementById("myVideo");
 
 $("ul").on("click", "li", function(event){
   $(this).toggleClass("selected");
@@ -46,3 +46,4 @@ function updateTime(k) { /* appending 0 before time elements if less than 10 */
 }
 
 currentTime();
+
