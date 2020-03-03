@@ -1,4 +1,12 @@
+// video background
 var video = document.getElementById("myVideo");
+
+
+//Todo List
+
+// $("button").on("click", function(event){
+//   $(this).
+// })
 
 $("ul").on("click", "li", function(event){
   $(this).toggleClass("selected");
@@ -16,10 +24,12 @@ $("input[type='text']").keypress(function(event){
 if(event.which === 13){
   var inputEnteredText = $(this).val();
   $(this).val(" ");
-  $("ul").append("<li><span>X </span>" + inputEnteredText + "</li>");
+  $("ul").append("<li><span><img src='assets/rubbish.png'></span>" + inputEnteredText + "</li>");
 }
 });
 
+
+// Clock 
 
 function currentTime() {
   var date = new Date(); /* creating object of Date class */
