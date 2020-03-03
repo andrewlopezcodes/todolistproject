@@ -1,17 +1,76 @@
 body {
-  
+  font-family: Muli ;
+  /* background-color: black; */
+}
+#clock {
+  font-family: Muli ;
+  color: black;
+  font-size: 56px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 #container {
   width: 360px;
-  margin: 0 auto;
-  border: 2px solid black;
+  margin: 100px auto;
+  box-shadow: 0 0 10px solid rgba(13, 103, 255, 0.3);
+  background-color: #8CD9FF;
 }
 .selected {
   color: grey;
   text-decoration: line-through;
 }
 
-ul {
-  list-style: none;
+h1 {
+  background: #74A3E8;
+  color: white;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+   
 }
+
+input {
+  font-size: 14px;
+  background-color: #f7f7f7;
+  width: 100%;
+  padding-top: 13px;
+  padding-right: 13px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  box-sizing: border-box; 
+}
+
+input:focus {
+  outline: none;
+  border: 3px solid #74A3E8;
+}
+
+ul {
+  display: inline-flexbox;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background: #72E8CF;
+  color: #344969;
+  height: 40px;
+  line-height: 40px;
+  word-wrap: break-word;
+}
+
+li:nth-child(2n){
+  background: #49DAEB;
+}
+
+/* colors used in this project
+  container background color: #8CD9FF
+  container alternating colrs: #72E8CF & #49DAEB
+  container border color: #7DB2FF
+  container box-shadow color: #0D67FF
+  h1 background color: #74A3E8  */
