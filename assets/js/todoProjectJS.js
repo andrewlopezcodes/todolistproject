@@ -3,7 +3,10 @@ var video = document.getElementById("myVideo");
 
 
 //Todo List
-
+var close = document.getElementsByClassName("close");
+var open = document.getElementsByClassName("open");
+var input = document.getElementsByTagName("input");
+var imputDisplay = "display: none";
 
 
 $("ul").on("click", "li", function(event){
@@ -28,10 +31,11 @@ if(event.which === 13){
 
 $(".pencilIcon").click(function(event){
   $("input[type='text']").fadeToggle();
+  if(document.querySelector("style") === "display: none;"){
+    $("span #open").toggleClass(".open");
+  }
   event.stopPropagation();
 });
-
-
 
 // Clock 
 

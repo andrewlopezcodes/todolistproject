@@ -35,7 +35,11 @@ h1 {
 
 img {
   float: right;
-  color: white;
+}
+p {
+  text-align: center;
+  font-size: 16px;
+  color: black;
 }
 
 button:focus {
@@ -106,9 +110,14 @@ li:hover span img{
   display: none;
 }
 
+h1:hover img {
+background: white;
+}
 /* colors used in this project
   container background color: #8CD9FF
   container alternating colrs: #72E8CF & #49DAEB
   container border color: #7DB2FF
   container box-shadow color: #0D67FF
-  h1 background color: #74A3E8  */
+  h1 background color: #74A3E8  
+  
+  This code was written by github: @andrewlopezcodes*/
