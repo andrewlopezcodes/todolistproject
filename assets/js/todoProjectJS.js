@@ -61,3 +61,4 @@ function updateTime(k) { /* appending 0 before time elements if less than 10 */
 
 currentTime();
 
+// This code was written by github: @andrewlopezcodes
