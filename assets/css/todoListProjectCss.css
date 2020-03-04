@@ -14,7 +14,7 @@ body {
 
 #container {
   width: 360px;
-  margin: 100px auto;
+  margin: 0 auto;
   box-shadow: 0 0 10px solid rgba(13, 103, 255, 0.3);
   background-color: #8CD9FF;
 }
@@ -73,12 +73,21 @@ li {
   word-wrap: break-word;
 }
 
-li span {
+span img{
   float: left;
+  margin-top: 10px;
+  margin-right: 20px;
+  text-align: center;
+  width: 0;
+  transition: 0.2s linear;
 }
 
 li:nth-child(2n){
   background: #49DAEB;
+}
+
+li:hover span img{
+  width: 24px;
 }
 
 #myVideo {

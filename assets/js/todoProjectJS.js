@@ -4,9 +4,7 @@ var video = document.getElementById("myVideo");
 
 //Todo List
 
-// $("button").on("click", function(event){
-//   $(this).
-// })
+
 
 $("ul").on("click", "li", function(event){
   $(this).toggleClass("selected");
@@ -27,6 +25,12 @@ if(event.which === 13){
   $("ul").append("<li><span><img src='assets/rubbish.png'></span>" + inputEnteredText + "</li>");
 }
 });
+
+$(".pencilIcon").click(function(event){
+  $("input[type='text']").fadeToggle();
+  event.stopPropagation();
+});
+
 
 
 // Clock 
