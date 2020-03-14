@@ -5,3 +5,4 @@
 libraries Used
 1. Paper.js
 2. Howler.js
+3. jQuery.js
